@@ -18,13 +18,9 @@ struct ContentView: View {
         ZStack {
             
             
-            //Color.blue.edgesIgnoringSafeArea(.all)
-            
             ContainerRelativeShape()
                 .fill(Color.blue.gradient)
                 .ignoresSafeArea()
-            
-            
             
             if viewModel.isLoading {
                 
@@ -67,15 +63,27 @@ struct ContentView: View {
                     }
                     .padding()
                     
+                    
+                    
+                    Button {
+                        
+                        
+                    } label: {
+                        Text("Change City")
+                            .frame(width:200, height:40)
+                            .foregroundColor(.white)
+                            .font(.title3)
+                            .cornerRadius(10)
+                            .background(Color(red:100/255, green: 226/255, blue: 222/255))
+                            
+                    }
+                    .cornerRadius(10)
+
+    
                 }
-                
-                
-                
+                                
             }
-            
-            
-            
-            
+
         }
         
     }
