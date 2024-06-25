@@ -52,6 +52,7 @@
 		457C861E2C299C1500F519B3 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		457C86202C299CCA00F519B3 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		457C86232C29BA2F00F519B3 /* JSON.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = JSON.rtf; sourceTree = "<group>"; };
+		457C86282C2AF9EB00F519B3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		457C85E42C297CC800F519B3 = {
 			isa = PBXGroup;
 			children = (
+				457C86282C2AF9EB00F519B3 /* README.md */,
 				457C85EF2C297CC800F519B3 /* WeatherVR */,
 				457C86002C297CCA00F519B3 /* WeatherVRTests */,
 				457C860A2C297CCA00F519B3 /* WeatherVRUITests */,
@@ -105,8 +107,8 @@
 				457C86222C29BA1E00F519B3 /* Resources */,
 				457C861D2C299C0A00F519B3 /* Model */,
 				457C861A2C299BAD00F519B3 /* ViewModel */,
+				457C86252C2AF70B00F519B3 /* View */,
 				457C85F02C297CC800F519B3 /* WeatherVRApp.swift */,
-				457C85F22C297CC800F519B3 /* ContentView.swift */,
 				457C85F42C297CC900F519B3 /* Assets.xcassets */,
 				457C85F62C297CC900F519B3 /* Preview Content */,
 			);
@@ -161,6 +163,14 @@
 				457C86232C29BA2F00F519B3 /* JSON.rtf */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		457C86252C2AF70B00F519B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				457C85F22C297CC800F519B3 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
